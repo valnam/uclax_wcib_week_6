@@ -9,13 +9,15 @@ body {
   width: 100%;
   position: absolute;
   top: 0;
-  left: 0; }
+  left: 0;
+  margin: 0 auto; }
 
 .full-img {
   position: relative;
   display: block;
   width: 640px;
-  height: 480px; }
+  height: 480px;
+  margin: 0 auto; }
 
 .overlay {
   position: absolute;
@@ -25,7 +27,7 @@ body {
   height: 480px;
   background-color: rgba(0, 0, 0, 0); }
 
-.button {
+.dark-button, .light-button {
   border: 0;
   background: rgba(150, 150, 150, 0.6);
   text-shadow: 1px 1px 1px white;
@@ -39,7 +41,8 @@ body {
   display: block;
   width: 20%;
   float: left;
-  cursor: pointer; }
+  cursor: pointer;
+  margin: 0 auto; }
 
 .thumb-bar {
   width: 640px; }

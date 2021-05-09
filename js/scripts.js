@@ -3,7 +3,7 @@ console.log('Hello from js/scripts.js!');
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
-const btn = document.querySelector('button');
+const btn = document.querySelector('.dark-button');
 const overlay = document.querySelector('.overlay');
 
 /* Looping through images */
@@ -21,12 +21,15 @@ for(let i = 1; i <= 5; i++) {
 
 btn.onclick = function() {
   const btnClass = btn.getAttribute('class');
-  if(btnClass === 'dark') {
-    btn.setAttribute('class','light');
+  console.log(btnClass);
+  if(btnClass === 'dark-button') {
+    console.log('the dark button was clicked!');
+    btn.setAttribute('class','light-button');
     btn.textContent = 'Lighten';
     overlay.style.backgroundColor = 'rgba(0,0,0,0.5)';
   } else {
-    btn.setAttribute('class','dark');
+    console.log('the light button was clicked!');
+    btn.setAttribute('class','dark-button');
     btn.textContent = 'Darken';
     overlay.style.backgroundColor = 'rgba(0,0,0,0)';
   }
