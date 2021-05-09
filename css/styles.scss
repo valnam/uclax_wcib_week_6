@@ -1,6 +1,9 @@
 h1 {
   font-family: Georgia, serif;
+  font-size: 24px;
   text-align: center;
+  color: white;
+  background-color: green;
 }
 
 body {
@@ -12,8 +15,8 @@ body {
     top: 0;
     left: 0;
     margin: 0 auto;
-
 }
+
 
 .full-img {
   position: relative;
@@ -54,10 +57,6 @@ body {
 .thumb-bar {
   width: 640px; }
 
-nav {
-  font-family: 'Georgia', serif;
-  background-color: transparent;
-}
 
 .container {
   text-align: center;

@@ -1,6 +1,9 @@
 h1 {
   font-family: Georgia, serif;
-  text-align: center; }
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  background-color: green; }
 
 body {
   background: url("../images/background.jpg");
@@ -46,10 +49,6 @@ body {
 
 .thumb-bar {
   width: 640px; }
-
-nav {
-  font-family: 'Georgia', serif;
-  background-color: transparent; }
 
 .container {
   text-align: center; }
