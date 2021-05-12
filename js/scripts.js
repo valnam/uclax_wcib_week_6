@@ -15,7 +15,7 @@ for(let i = 1; i <= 5; i++) {
   newImage.onclick = function(e) {
     displayedImage.src = e.target.src;
   }
-
+}
 
 /* Wiring up the Darken/Lighten button */
 

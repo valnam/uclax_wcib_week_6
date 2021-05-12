@@ -1,3 +1,10 @@
+h1 {
+  font-family: Georgia, serif;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  background-color: green; }
+
 body {
   background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
@@ -12,9 +19,8 @@ body {
 .full-img {
   position: relative;
   display: block;
-  max-width: 100%;
-  height: auto;
-  margin: auto; }
+  width: 50%;
+  margin: 0 auto; }
 
 .overlay {
   position: absolute;
@@ -35,8 +41,8 @@ body {
   left: 2px; }
 
 .thumb-bar {
-  max-width: 640px;
-  height: auto; }
+  width: 50%;
+  margin: 0 auto; }
 
 .thumb-bar img {
   display: block;
